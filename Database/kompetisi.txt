@@ -1,0 +1,14 @@
+CREATE TABLE kompetisi (
+    id INT (11)PRIMARY KEY AUTO_INCREMENT,
+    nama_kompetisi VARCHAR(255) NOT NULL,
+    penyelenggara VARCHAR(255) NOT NULL,
+    deskripsi_kompetisi TEXT NOT NULL,
+    sumber VARCHAR(255) NOT NULL,
+    poster_path VARCHAR(255) NOT NULL,
+    tingkat_kompetisi VARCHAR(50) NOT NULL,
+    biaya_pendaftaran VARCHAR(50) NOT NULL,
+    tanggal_deadline DATE NOT NULL,
+    waktu_deadline TIME NOT NULL,
+    link_pendaftaran VARCHAR(255) NOT NULL,
+    link_narahubung VARCHAR(255) NOT NULL
+);

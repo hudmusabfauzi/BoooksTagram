@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .background-image-container {
+    background-image: url('slide\ bookstagram.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    z-index: 998; /* Atur z-index menjadi lebih rendah daripada z-index navbar */
+  }
+  nav {
+    display: flex;
+    border: 0px solid rgba(0, 0, 0, 0.70);
+    background: linear-gradient(270deg, #0E41DF 0%, #0253BE 17.19%, #037CDC 100%);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+  }
+img{
+    width: 241px;
+    height: 34px;
+    flex-shrink: 0;
+    padding-top: 5;
+    position: fixed;
+    top: 13px;
+    left: 43px;
+}
+.search-container input[type="text"]{
+  display: flex;
+  align-items: center;
+  width: 280.694px;
+  height: 34.972px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  position: fixed;
+  top: 13px;
+  left: 600px;
+  border-radius: 3px;
+  background: #FFF;
+}
+.styled-class{
+    width: 280.694px;
+    height: 34.972px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: #FFF;
+
+}
+.search-container img{
+    width: 19.326px;
+    height: 19.326px;
+    flex-shrink: 0;
+    padding-left: 815px;
+    padding-top: 7px;
+    fill: linear-gradient(180deg, #037CDC 0%, #00269D 100%);
+    cursor: pointer;
+}  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-left: 1150px;
+  }
+  
+  li {
+    padding: 15px 20px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #0E41DF;
+  }
+h1{
+    color: #292D32;
+font-family: PT Sans;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 100.4%; /* 64.256px */
+position: fixed;
+left: 80px;
+top: 180px;
+}
+h1 span{
+ background: linear-gradient(90deg, #00269D 0%, #037CDC 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: PT Sans;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 100.4%;
+}
+p{
+    color: #292D32;
+font-family: PT Sans Caption;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: fixed;
+left: 83px;
+top: 340px;
+}
+button{
+    width: 240px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    top: -265px;
+    left: 85px;
+    padding-bottom: 0px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #037CDC;
+}
+.styled-button{
+    border: 0px solid rgba(0, 0, 0, 0.70);
+    background: linear-gradient(270deg, #0E41DF 0%, #0253BE 17.19%, #037CDC 100%);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20);
+    cursor: pointer;
+    position: relative;
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.container-sosmed{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.text-sosmed p{
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125.5%; /* 13.805px */
+    padding-top: 250px;
+    display: flex;
+    padding-left: 5px;
+}
+.image img{
+    width: 32.694px;
+    height: 32.694px;
+    flex-shrink: 0;   
+    margin: 10px;
+    padding-top: 570px;
+    padding-left: 120px;
+    display: flex;
+}
+.image2 img{
+    width: 32.694px;
+    height: 32.694px;
+    flex-shrink: 0;
+    margin: 10px;
+    padding-top: 570px;
+    padding-left: 160px;
+    display: flex;
+}
+.image3 img{
+    width: 32.694px;
+    height: 32.694px;
+    flex-shrink: 0;
+    margin: 10px;
+    padding-top: 570px;
+    padding-left: 200px;
+    display: flex;
+}

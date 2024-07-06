@@ -1,0 +1,31 @@
+body {
+    font-family: "PT Sans", sans-serif;
+    background-color: #F0F0F0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+ /* Gaya CSS untuk container */
+ .container {
+    max-width: 1200px; /* Lebar maksimum container */
+    margin: 0 auto; /* Mengatur margin secara otomatis untuk mengandalkan flexibilitas lebar */
+    padding: 15px; /* Padding untuk ruang di dalam container */
+    
+  }
+
+  /* Gaya CSS untuk elemen teks dalam container */
+  .container h1 {
+     
+      font-family: "PT Sans", sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      color: #000;/* Warna teks judul */
+
+  }
+  

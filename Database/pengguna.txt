@@ -1,0 +1,10 @@
+USE bookstagram;
+
+CREATE TABLE pengguna (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nama_lengkap VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL UNIQUE,
+  no_ponsel VARCHAR(20) NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
