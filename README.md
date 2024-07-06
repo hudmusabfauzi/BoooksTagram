@@ -1,4 +1,5 @@
-<center> ## BooksTagram (Sistem Review Buku dan Event) </center>
+ ## BooksTagram (Sistem Review Buku, Event & Perlombaan)
+BooksTagram adalah platform inovatif yang didesain untuk meningkatkan minat baca melalui review buku bacaan dan e-book terbaik. Dengan menyediakan informasi secara detail
 
 ## Preview Beberapa Menu Tampilan UI BooksTagram
 1. Halaman Landing Page
